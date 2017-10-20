@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HTML5 Image Wrapper</title>
+<link rel="stylesheet" href="styles/style.css"/>
+<script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
+<script type="text/javascript">
+	function checkIfAdKitReady(event) {
+		adkit.onReady(initializeCreative);
+	}
+
+	function initializeCreative(event) {
+		document.getElementById("clickBtn").addEventListener("click", handleClick);
+	}
+
+	function handleClick() {
+		EB.clickthrough();
+	}
+
+	window.addEventListener("load", checkIfAdKitReady);
+</script>
+</head>
+<body>
+	<div id="banner">
+		<button id="clickBtn"></button>
+		<img src="images/heavyImage.gif" alt="Heavy Image">
+	</div>
+</body>
+</html>
