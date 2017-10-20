@@ -10,4 +10,4 @@ Los formatos de imagen en la plataforma de Sizmek estan limitados a imagenes de 
 
 Recuerda que si tienes cualquier duda puedes ponerte en contacto con el equipo de <a href="mailto:creativesupport-spain@sizmek.com">Soporte Creativo de Sizmek</a>
 
-*** 
+*** 
